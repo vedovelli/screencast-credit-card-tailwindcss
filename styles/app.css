@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-info-container {
+  @apply w-full bg-center rounded-xl mb-6 p-8;
+  height: 330px;
+  background-image: url("https://i.ibb.co/dWKHTRv/01.jpg");
+}
+
+.card-info {
+  @apply bg-white bg-opacity-30 w-full h-full rounded-3xl p-8;
+  @apply border border-white text-white;
+}
+
+.form-grid {
+  @apply grid gap-4;
+  grid-template-columns: 1fr 150px;
+}
+
+.form-input {
+  @apply rounded-lg border border-gray-400 px-4;
+  @apply py-3;
+}
+
+.form-label {
+  @apply mb-2 font-semibold tracking-wide;
+}
